@@ -1,11 +1,9 @@
-// Number of rows for the pattern
-const numRows = 5;
-
-// Generate the pattern using a for loop
-let pattern = "";
-for (let i = 1; i <= numRows; i++) {
-    pattern += "*".repeat(i) + "\n";
-}
-
-// Print the pattern
-console.log(pattern);
+let budget = {
+    income:1000,
+    expenses:700,
+   
+  };
+  budget.savings = budget.income - budget.expenses;
+  budget.income = 1200;
+  budget.savings = budget.income - budget.expenses
+  console.log(budget)

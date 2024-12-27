@@ -1,9 +1,6 @@
-let book = {
-    title: "The Hobbit",
-    author: "J.R.R. Tolkien",
-    year: 1937
-  };
-  
-  for( key in book){
-    console.log(key,":",book[key])
-  }
+let todolist = ["wakeup" , "brushteeth", "Have breakfast"]
+todolist[3]="Go for a walk";
+
+// console.log(todolist)
+todolist.pop()
+console.log("Updated task",todolist)

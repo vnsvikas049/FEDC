@@ -1,14 +1,8 @@
-let students = [
-    { name: "Alice", marks: 45, subject: "Math" },
-    { name: "Bob", marks: 75, subject: "Science" },
-    { name: "Charlie", marks: 50, subject: "English" },
-    { name: "David", marks: 30, subject: "History" }
-  ];
-  
-  // Filter students with marks greater than 50
-  let passedStudents = students.filter(student => student.marks > 50);
-  
-  // Display their name and subject
-  passedStudents.forEach(student => {
-    console.log(`${student.name} - ${student.subject}`);
-  });
+const fruits = ["Apple", "Banana", "Cherry"];  
+fruits.pop();  
+fruits[2] = "Orange";  
+console.log(fruits); 
+
+
+// if friuts.pop apply to the friuts array the last element present at index 2 is missing 
+// when I put fruits[3] = "orange" thand the updates friuts array is apple,banana,empty,orange 
